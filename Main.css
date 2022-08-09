@@ -6,3 +6,16 @@
   font: inherit;
   vertical-align: baseline;
 }
+
+.Pictures div{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+}
+
+img{
+  max-height: 100%;
+  max-width: 100%;
+  /* new property i learned today */
+  /* object-fit: fill; */
+}
